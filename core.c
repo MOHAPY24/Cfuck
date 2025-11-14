@@ -41,6 +41,11 @@ int tokenize(char text[], Token tokens[]){
             strcpy(tokens[count].Type, "PRINT");
             count++;
         }
+        else if (text[i] == ' ' || text[i] == '\n' || text[i] == '\t')
+        {
+            // Ignore whitespace
+            ;
+        }
         else{
             printf("Invalid token: '%c'\n", text[i]);
             break;
@@ -70,6 +75,9 @@ const char* interpet(Token token){
     else if (strcmp(token.Type, "PRINT") == 0)
     {
         printf("%d\n", tape[ip]);
+    }
+    else{
+        printf("Unknown token type: %s\n", token.Type);
     }
     return "";
 }
