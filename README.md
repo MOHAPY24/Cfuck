@@ -1,5 +1,13 @@
 # Cfuck
 ## A simple and minimalistic Brainfuck interpreter written in C.
+##### THIS IS JUST A PERSONAL PROJECT FOR LEARNING PURPOSES.
+
+## Description
+Cfuck is a lightweight Brainfuck interpreter implemented in C. It is designed to be easy to compile and run on any system with a C compiler.
+It supports all standard Brainfuck commands except loops and provides a simple interface for executing Brainfuck programs from a REPL.
+
+
+
 
 ### Features
 - Lightweight and fast execution.
