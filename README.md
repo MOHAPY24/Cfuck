@@ -8,7 +8,7 @@
 ### Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MOHAPY24/cfuck.git
+   git clone https://github.com/MOHAPY24/Cfuck.git
    cd cfuck
    ```
 2. Compile the interpreter:
